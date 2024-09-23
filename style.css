@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(82, 80, 80);
+    color: black;
+    font-family: "Caveat", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(150, 29, 29);
+    color: rgb(255, 0, 0);
+    font-family: "Caveat", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
